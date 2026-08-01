@@ -1,8 +1,31 @@
 aid: splashtop
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/splashtop.png
 name: Splashtop
-description: 'Splashtop is a company surfaced as a portfolio company of sapphire-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Splashtop is a secure remote access, remote support, and endpoint management
+  company founded in 2006 by four MIT-educated engineers (Mark Lee, Robert Ha,
+  Thomas Deng, and Philip Sheu). Its platform lets individuals, IT teams, and
+  managed service providers connect to computers and devices from anywhere with
+  high-performance streaming (up to 4K at 60fps) and strong security. The product
+  suite spans Remote Access for individuals and teams, Remote Support for IT and
+  MSPs, Autonomous Endpoint Management with real-time patch deployment, and
+  Enterprise offerings with SSO, alongside security products including antivirus,
+  endpoint detection and response, and Foxpass Wi-Fi/access controls. Splashtop
+  serves 30+ million users across 800+ million sessions, reached unicorn status
+  in 2021, and is ISO/IEC 27001:2022, SOC 2 Type 2, CSA STAR, GDPR, HIPAA, and
+  PCI compliant. It documents a REST API for business/MSP integrations and
+  publishes a live service status page.
 url: https://raw.githubusercontent.com/api-evangelist/splashtop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +35,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Saas
+- Remote Access
+- Remote Support
+- Remote Desktop
+- Endpoint Management
+- IT Management
+- MSP
+- Security
+- Remote Work
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +56,42 @@ maintainers:
 common:
 - type: Website
   url: https://www.splashtop.com/
+- type: About
+  url: https://www.splashtop.com/about
+- type: Documentation
+  url: https://support-splashtopbusiness.splashtop.com/hc/en-us
+- type: Support
+  url: https://www.splashtop.com/support
+- type: Blog
+  url: https://www.splashtop.com/blog
+- type: Pricing
+  url: https://www.splashtop.com/pricing
+- type: Login
+  url: https://my.splashtop.com/login
+- type: GitHubOrganization
+  url: https://github.com/splashtop
+- type: TermsOfService
+  url: https://www.splashtop.com/legal/website-terms
+- type: PrivacyPolicy
+  url: https://www.splashtop.com/legal/privacy-policy
+- type: StatusPage
+  url: https://status.splashtop.com/
+- type: Lifecycle
+  url: lifecycle/splashtop-lifecycle.yml
+- type: Compliance
+  url: https://www.splashtop.com/security/compliance
+- type: Conformance
+  url: conformance/splashtop-conformance.yml
+- type: TrustCenter
+  url: security/splashtop-trust-center.yml
+- type: Security
+  url: https://www.splashtop.com/legal/responsible-disclosure
+- type: VulnerabilityDisclosure
+  url: security/splashtop-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/splashtop-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

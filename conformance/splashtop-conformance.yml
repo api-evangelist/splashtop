@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.splashtop.com/security/compliance
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: ISO/IEC 27001:2022 certified information security management system
+- id: soc2-type2
+  conforms: true
+  evidence: SOC 2 Type 2 (AICPA Trust Services Criteria - Security, Availability, Confidentiality)
+- id: csa-star
+  conforms: true
+  evidence: CSA STAR Level 1 cloud security compliance
+- id: gdpr
+  conforms: true
+  evidence: EU GDPR compliant as Data Controller and Data Processor
+- id: ccpa
+  conforms: true
+  evidence: California Consumer Privacy Act compliance
+- id: hipaa
+  conforms: true
+  evidence: Supports HIPAA guidelines for remote access to healthcare information
+- id: pci-dss
+  conforms: true
+  evidence: PCI DSS compliance support (Foxpass)
+- id: ferpa
+  conforms: true
+  evidence: FERPA compliance support for educational institutions (Foxpass)

@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.splashtop.com/
+status_page: https://status.splashtop.com/
+status_page_provider: Atlassian Statuspage
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+notes: >-
+  Splashtop publishes a live service status page (Atlassian Statuspage) covering
+  its remote access, remote support, and management services. No public
+  versioning or deprecation policy document was located for the Splashtop API,
+  which is documented via the Splashtop business support knowledge base.

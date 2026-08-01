@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.splashtop.com/security/compliance
+url: https://www.splashtop.com/security/compliance
+certifications:
+- ISO/IEC 27001:2022
+- SOC 2 Type 2
+- CSA STAR Level 1
+- GDPR
+- CCPA
+- HIPAA
+- PCI DSS
+- FERPA
+evidence:
+- source: https://www.splashtop.com/security/compliance
+  keywords:
+  - iso/iec 27001:2022
+  - soc 2 type 2
+  - csa star level 1
+  - gdpr
+  - ccpa
+  - hipaa
+  - pci dss
+  - ferpa
