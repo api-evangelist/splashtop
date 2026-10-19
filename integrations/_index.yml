@@ -41,3 +41,16 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: splashtop-autodesk-own
+  label: Autodesk (own)
+  partner: autodesk
+  partner_name: Autodesk (own)
+  category: 3DSMAX/ACAD_E/ACD/ADSTPR/ALAUST/ALSCPT/AMECH_PP/ARCHDESK/BLDSYS/CIV3D/FSN/INVNTOR/INVVAU/MAYA/PLNT3D/RVT/SCFD/SURFST/VLTM
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://marketplace.autodesk.com/apps/5f5a0d2b-e390-42b9-b454-da2692092823
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
