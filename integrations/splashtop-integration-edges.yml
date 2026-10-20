@@ -10,6 +10,7 @@ checked:
 - microsoft-teams/integrations/microsoft-teams-integration-edges.yml
 - okta/integrations/okta-integration-edges.yml
 - zendesk/integrations/zendesk-integration-edges.yml
+- jamf/integrations/jamf-integration-edges.yml
 source:
 - crowdstrike/integrations/crowdstrike-integration-edges.yml
 - okta/integrations/okta-integration-edges.yml
@@ -207,3 +208,20 @@ edges:
     detected: '2026-10-20'
   detected_by: sweep-compliance-assurance.py
   first_seen: '2026-10-20'
+- partner_name: JAMF (own)
+  partner: jamf
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.jamf.com/details/splashtop-for-business
+  mirror_of: jamf/integrations/jamf-integration-edges.yml
+  apps:
+  - Splashtop for Business
+  listing_count: 1
+  detected: '2026-10-20'
+  detected_by: mirror-platform-listings.py
+  category: Deployment Guide
